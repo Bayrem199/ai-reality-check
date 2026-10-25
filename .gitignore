@@ -1,0 +1,15 @@
+# Données brutes : jamais commitées
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+
+# Secrets
+.env
+*.token
+.databrickscfg
+
+# Fichiers temporaires
+.databricks/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
